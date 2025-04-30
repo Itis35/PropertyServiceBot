@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PropertyServiceBot": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+services:
+  propertyservicebot:
+    image: ${DOCKER_REGISTRY-}propertyservicebot
+    build:
+      context: .
+      dockerfile: PropertyServiceBot/Dockerfile
+    restart: always
